@@ -4,6 +4,7 @@ pack:
   - ./packs/ARM.Musca_B1_BSP.1.1.0-small.pack
   - ./packs/Eastsoft.ES32_DFP.1.0.10.pack
   - ./packs/Keil.AT32F4xx_DFP.1.3.2.pack
+  - ./packs/Geehy.APM32F1xx_DFP.1.0.8-small.pack
   - ./packs/Keil.Kinetis_K20_DFP.1.7.0-small.pack
   - ./packs/Keil.Kinetis_K32W_DFP.1.2.0-small.pack
   - ./packs/Keil.Kinetis_K40_DFP.1.1.0-small.pack
