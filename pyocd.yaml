@@ -55,7 +55,16 @@ pack:
   - ./packs/Maxim.MAX32650.1.1.0-a-small.pack
   - ./packs/Maxim.MAX32660.1.1.2-small.pack
   - ./packs/Maxim.MAX32665.0.3.0-small.pack
-  - ./packs/Nationstech.N32G45x_DFP.1.0.0.pack
+  - ./packs/Nations.N32G430_DFP.1.0.0.pack
+  - ./packs/Nationstech.N32G030_DFP.1.0.3.pack
+  - ./packs/Nationstech.N32G031_DFP.1.0.3.pack
+  - ./packs/Nationstech.N32G032_DFP.0.2.0.pack
+  - ./packs/Nationstech.N32G43x_DFP.0.9.3.pack
+  - ./packs/Nationstech.N32G45x_DFP.1.0.5.pack
+  - ./packs/Nationstech.N32G4FR_DFP.1.0.4.pack
+  - ./packs/Nationstech.N32L40x_DFP.0.9.0.pack
+  - ./packs/Nationstech.N32L43x_DFP.0.1.0.pack
+  - ./packs/Nationstech.N32WB452_DFP.1.0.4.pack
   - ./packs/NordicSemiconductor.nRF_DeviceFamilyPack.8.32.1-small.pack
   - ./packs/Nuvoton.NuMicro_DFP.1.3.5-small.pack
   - ./packs/NXP.LPC54114_DFP.12.1.0-small.pack
@@ -86,4 +95,5 @@ pack:
   - ./packs/NXP.MKL46Z4_DFP.10.0.3-small.pack
   - ./packs/NXP.MKL82Z7_DFP.11.0.1-small.pack
   - ./packs/NXP.MKV10Z1287_DFP.12.1.0-small.pack
+  - ./packs/Renesas.RA_DFP.4.2.0.pack
   - ./packs/Samsung.S5JS100.1.1.3-small.pack
