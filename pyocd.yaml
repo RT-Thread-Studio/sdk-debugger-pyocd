@@ -2,6 +2,8 @@
 pack:
   - ./packs/ARM.Musca_A1_BSP.2.0.0-small.pack
   - ./packs/ARM.Musca_B1_BSP.1.1.0-small.pack
+  - ./packs/ArteryTek.AT32A403A_DFP.2.0.5.pack
+  - ./packs/ArteryTek.AT32A423_DFP.2.0.0.pack
   - ./packs/ArteryTek.AT32F402_405_DFP.2.0.2.pack
   - ./packs/ArteryTek.AT32F403A_407_DFP.2.0.8.pack
   - ./packs/ArteryTek.AT32F413_DFP.2.0.7.pack
