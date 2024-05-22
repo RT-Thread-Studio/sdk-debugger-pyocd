@@ -5,7 +5,7 @@ pack:
   - ./packs/ArteryTek.AT32A403A_DFP.2.0.5.pack
   - ./packs/ArteryTek.AT32A423_DFP.2.0.0.pack
   - ./packs/ArteryTek.AT32F402_405_DFP.2.0.2.pack
-  - ./packs/ArteryTek.AT32F403A_407_DFP.2.0.8.pack
+  - ./packs/ArteryTek.AT32F403A_407_DFP.2.1.9.pack
   - ./packs/ArteryTek.AT32F413_DFP.2.0.7.pack
   - ./packs/ArteryTek.AT32F415_DFP.2.0.7.pack
   - ./packs/ArteryTek.AT32F421_DFP.2.0.8.pack
