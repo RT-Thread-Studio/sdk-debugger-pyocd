@@ -12,6 +12,7 @@ pack:
   - ./packs/ArteryTek.AT32F423_DFP.2.0.0.pack
   - ./packs/ArteryTek.AT32F425_DFP.2.0.5.pack
   - ./packs/ArteryTek.AT32F435_437_DFP.2.0.8.pack
+  - ./packs/ArteryTek.AT32M412_416_DFP.2.0.0.pack
   - ./packs/Eastsoft.ES32_DFP.1.0.10.pack
   - ./packs/Geehy.APM32F1xx_DFP.1.0.8-small.pack
   - ./packs/Geehy.APM32F4xx_DFP.1.0.2-small.pack
