@@ -76,6 +76,7 @@ pack:
   - ./packs/NXP.LPC54608_DFP.12.1.0-small.pack
   - ./packs/NXP.LPC55S69_DFP.12.1.1-small.pack
   - ./packs/NXP.LPC824_DFP.12.1.0-small.pack
+  - ./packs/NXP.MCXN947_DFP.25.03.00.pack
   - ./packs/NXP.MIMXRT1021_DFP.12.1.0-small.pack
   - ./packs/NXP.MIMXRT1051_A0_DFP.10.0.0-small.pack
   - ./packs/NXP.MIMXRT1051_DFP.12.1.0-small.pack
