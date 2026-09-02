@@ -4,8 +4,8 @@ pack:
   - ./packs/ARM.Musca_B1_BSP.1.1.0-small.pack
   - ./packs/ArteryTek.AT32A403A_DFP.2.0.5.pack
   - ./packs/ArteryTek.AT32A423_DFP.2.0.0.pack
-  - ./packs/ArteryTek.AT32F45x_DFP.2.0.0.pack
   - ./packs/ArteryTek.AT32F402_405_DFP.2.0.2.pack
+  - ./packs/ArteryTek.AT32F403A_407_DFP.2.0.8.pack
   - ./packs/ArteryTek.AT32F403A_407_DFP.2.1.9.pack
   - ./packs/ArteryTek.AT32F413_DFP.2.0.7.pack
   - ./packs/ArteryTek.AT32F415_DFP.2.0.7.pack
@@ -13,10 +13,15 @@ pack:
   - ./packs/ArteryTek.AT32F423_DFP.2.0.0.pack
   - ./packs/ArteryTek.AT32F425_DFP.2.0.5.pack
   - ./packs/ArteryTek.AT32F435_437_DFP.2.0.8.pack
+  - ./packs/ArteryTek.AT32F45x_DFP.2.0.0.pack
   - ./packs/ArteryTek.AT32M412_416_DFP.2.0.0.pack
   - ./packs/Eastsoft.ES32_DFP.1.0.10.pack
   - ./packs/Geehy.APM32F1xx_DFP.1.0.8-small.pack
   - ./packs/Geehy.APM32F4xx_DFP.1.0.2-small.pack
+  - ./packs/GigaDevice.GD32F5xx_DFP.1.2.1.pack
+  - ./packs/GigaDevice.GD32H75E_DFP.1.3.0.pack
+  - ./packs/GigaDevice.GD32H77x_78x_DFP.0.6.1.pack
+  - ./packs/GigaDevice.GD32H7xx_DFP.1.4.0.pack
   - ./packs/Keil.Kinetis_K20_DFP.1.7.0-small.pack
   - ./packs/Keil.Kinetis_K32W_DFP.1.2.0-small.pack
   - ./packs/Keil.Kinetis_K40_DFP.1.1.0-small.pack
@@ -105,6 +110,3 @@ pack:
   - ./packs/Renesas.RA_DFP.5.1.0.pack
   - ./packs/Renesas.RA_DFP.6.1.0.pack
   - ./packs/Samsung.S5JS100.1.1.3-small.pack
-  - ./packs/GigaDevice.GD32F5xx_DFP.1.2.1.pack
-  - ./packs/GigaDevice.GD32H7xx_DFP.1.4.0.pack
-  - ./packs/GigaDevice.GD32H75E_DFP.1.3.0.pack
