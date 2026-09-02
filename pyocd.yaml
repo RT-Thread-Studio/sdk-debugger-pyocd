@@ -53,7 +53,7 @@ pack:
   - ./packs/Keil.STM32H7xx_DFP.2.5.0-small.pack
   - ./packs/Keil.STM32L0xx_DFP.2.0.1-small.pack
   - ./packs/Keil.STM32L1xx_DFP.1.2.0-small.pack
-  - ./packs/Keil.STM32L4xx_DFP.2.3.0-small.pack
+  - ./packs/Keil.STM32L4xx_DFP.3.1.0.pack
   - ./packs/Keil.STM32L5xx_DFP.1.1.0-small.pack
   - ./packs/Keil.STM32MP1xx_DFP.1.2.0-small.pack
   - ./packs/Keil.STM32W1xx_DFP.1.0.0-small.pack
