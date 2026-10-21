@@ -109,6 +109,22 @@
 
    
 
+## GD32H77DIW 连接兼容配置
+
+本工具包中的 pyOCD 0.45.1 默认通过 `DebugPortSetup` 调试序列连接芯片。在已验证的 GD32H77DIW 与 CherryUSB CMSIS-DAP 组合上，首次读取 DPIDR 可能返回 `No ACK`，该序列会直接结束连接。
+
+`pyocd.yaml` 已配置自动加载 `diagnostics/gd32h77_native_swd.py`，让 GD32H77DIW 使用 pyOCD 内置的 SWD 连接重试流程。目标名称匹配不区分大小写；其他目标仍使用原有流程。芯片内存映射和 Flash 下载算法继续由 `GigaDevice.GD32H77x_78x_DFP.0.6.1.pack` 提供。
+
+在本工具包目录执行原下载命令即可，无需额外添加 `--script` 参数，例如：
+
+```powershell
+.\pyocd.exe flash --target=GD32H77DIW --erase=auto -a=0x08000000 --frequency=1000000 C:/firmware/rtthread.bin
+```
+
+从其他目录调用时，使用前文的 `pyocd.bat` 以正确定位配置文件。发布工具包时需包含 `diagnostics/gd32h77_native_swd.py`；使用 `--no-config` 时不会通过 YAML 加载此配置。若需停用兼容处理，删除或注释 `pyocd.yaml` 中的 `user_script` 配置项即可。
+
+该方案已通过实板实际擦写及连续连接测试。升级 pyOCD 后应重新验证此兼容处理。
+
 ## 有问题看这里
 
 1. 如果使用方法1，必须在 pyocd.exe 所在目录执行上述命令，任何其他路径下通过绝对路径的调用目前都不支持

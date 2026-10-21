@@ -1,3 +1,4 @@
+user_script: ./diagnostics/gd32h77_native_swd.py
 
 pack:
   - ./packs/ARM.Musca_A1_BSP.2.0.0-small.pack
